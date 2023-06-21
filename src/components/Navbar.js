@@ -41,17 +41,17 @@ function Navbar() {
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
                   PRODUCTOS
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
                   SERVICIOS
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
                   CONTACTO
                 </Link>
               </li>
