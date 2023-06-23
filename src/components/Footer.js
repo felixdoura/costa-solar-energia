@@ -2,8 +2,9 @@ import React from "react";
 import { Button } from "./Button";
 import './Footer.css';
 import { Link } from "react-router-dom";
+import { BsFacebook, BsInstagram } from "react-icons/bs";
 
-function Footer () {
+function Footer() {
     return (
         <div className="footer-container">
             <section className="footer-subscription">
@@ -13,17 +14,6 @@ function Footer () {
                 <p className="footer-subscription-text">
                     You can unsubscribe at any time.
                 </p>
-                <div className="input-areas">
-                    <form>
-                        <input 
-                            type="email"
-                            name="email"
-                            placeholder="Add your Email"
-                            className="footer-input"
-                        />
-                        <Button buttonStyle='btn--outline'>Subscribe</Button>
-                    </form>
-                </div>
             </section>
             <div className="footer-links">
                 <div className="footer-link-wrapper">
@@ -67,28 +57,30 @@ function Footer () {
                 <div className="social-media-wrap">
                     <div className="footer-logo">
                         <Link to='/' className="social-logo">
-                            LOGO <i className="fab fa-typo3" />
+                            <img src="/images/logo-01.png" alt="logo" className="logo-img" />
                         </Link>
                     </div>
-                    <small className="website-rigths">LOGO 2023</small>
-                    <Link 
-                        className="social-icon-link facebook"
-                        to='/'
-                        target="_blank"
-                        aria-label="Facebook"
-                    >
-                        <i fab fa-facebook-f></i>
-                    </Link>
-                    <Link 
-                        className="social-icon-link instagram"
-                        to='/'
-                        target="_blank"
-                        aria-label="Instagram"
-                    >
-                        <i fab fa-instagram></i>
-                    </Link>
+                    <div className="social-links">
+                        <Link
+                            className="social-icon-link facebook"
+                            to='/'
+                            target="_blank"
+                            aria-label="Facebook"
+                        >
+                            <BsFacebook />
+                        </Link>
+                        <Link
+                            className="social-icon-link instagram"
+                            to='https://www.instagram.com/costaasolar/'
+                            target="_blank"
+                            aria-label="Instagram"
+                        >
+                            <BsInstagram />
+                        </Link>
+                    </div>
                 </div>
             </section>
+            <p className="website-rights">Todos los derechos reservados ©2023</p>
         </div>
     );
 }

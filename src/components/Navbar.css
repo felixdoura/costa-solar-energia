@@ -27,11 +27,14 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    height: 80px;
 }
 
-.fa-typo3 {
+.logo-img {
+    height: 100%;
     margin-left: 0.5rem;
     font-size: 1.8rem;
+    padding: 0.7rem;
 }
 
 .nav-menu {
@@ -118,7 +121,6 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(25%, 50%);
     }
 
     .menu-icon {
