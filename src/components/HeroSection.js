@@ -18,6 +18,7 @@ function HeroSection() {
                 >
                     CONOZCANOS
                 </Button>
+
                 <Button
                     className='btns'
                     buttonStyle='btn--primary'
