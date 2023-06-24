@@ -1,0 +1,13 @@
+
+.title-termotanques {
+    background: rgba(211, 211, 211, 0.3);
+    color: black;
+    padding-bottom: 8px;
+    border-radius: 2px;
+    padding: 10px 0 15px 0;
+    margin-bottom: -10px;
+}
+
+.product-info {
+    margin: 0 1rem;
+}

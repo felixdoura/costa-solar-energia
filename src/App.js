@@ -8,6 +8,7 @@ import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
 import Location from './components/pages/Location';
 import Contact from './components/pages/Contact';
+import ProductosTermotanques from './components/pages/products/ProductosTermotanques';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/sign-up' element={<SignUp />} />
         <Route path='/location' element={<Location />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/termotanques' element={<ProductosTermotanques />} />
       </Routes>
     </Router>
     </>

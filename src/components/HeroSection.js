@@ -20,7 +20,7 @@ function HeroSection() {
                 </Button>
 
                 <a
-                    href='https://api.whatsapp.com/send?phone=5491132082425'
+                    href='https://api.whatsapp.com/send?phone=5492246535844'
                     className='btns whatsapp-link'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'

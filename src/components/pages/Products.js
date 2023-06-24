@@ -17,7 +17,7 @@ function Products() {
                             src="images/foto-insta-012.jpg"
                             text="Termotanques"
                             label='Termotanques'
-                            path='/products'
+                            path='/termotanques'
                         />
                         <CardItem
                             src="images/foto-insta-004.jpg"
