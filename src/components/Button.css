@@ -2,7 +2,11 @@
     --primary: #fff;
 }
 
-.btn {
+.whatsapp-link {
+    text-decoration: none;
+}
+
+.btn, .whatsapp-link {
     padding: 8px 20px;
     border-radius: 2px;
     outline: none;
@@ -10,7 +14,7 @@
     cursor: pointer;
 }
 
-.btn--primary {
+.btn--primary, .whatsapp-link {
     background-color: var(--primary);
     color: #242424;
     border: 1px solid var(--primary);
@@ -29,7 +33,7 @@
     font-size: 20px;
 }
 
-.btn--large {
+.btn--large, .whatsapp-link {
     padding: 12px 26px;
     font-size: 20px;
     align-items: center;
@@ -37,7 +41,7 @@
     justify-content: space-evenly;
 }
 
-.btn--medium:hover, .btn--large:hover {
+.btn--medium:hover, .btn--large:hover, .whatsapp-link:hover {
     background: #fff;
     color: #242424;
     transition: all 0.3s ease-out;

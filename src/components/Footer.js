@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "./Button";
 import './Footer.css';
 import { Link } from "react-router-dom";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
@@ -24,15 +23,15 @@ function Footer() {
                     </div>
                     <div className="footer-link-items">
                         <h2>Contacto</h2>
-                        <Link to='/contact'>Donde Encontrarnos</Link>
+                        <Link to='/location'>Donde Encontrarnos</Link>
                         <Link to='/'>Envianos un Email</Link>
                     </div>
                 </div>
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>Links Utiles</h2>
-                        <Link to='/contact'>Que son las energias Renovables</Link>
-                        <Link to='/'>Como funcionan nuestros productos</Link>
+                        <Link to='https://www.youtube.com/watch?v=eRXY4pnLhmI'>Que son las energias Renovables</Link>
+                        <Link to='https://www.youtube.com/watch?v=k9ghIhZx6aw'>Como funcionan los paneles solares</Link>
                     </div>
                     <div className="footer-link-items">
                         <h2>Informacion</h2>

@@ -6,9 +6,7 @@
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.services {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -25,20 +23,83 @@
     font-size: 100px;
 }
 
+
+/* Products Start */
+
 .products {
-    background-image: url("../public/images/img-1.jpg");
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
 
-.sign-up {
-    background-image: url("../public/images/img-3.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.products h1 {
+    margin-bottom: 10px;
+}
+
+.products p {
+    text-align: center;
+}
+
+
+/* Products End */
+/* Contact Start */
+
+.contact {
+    background-image: url("../public/images/img-10.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.contact h1 {
+    background: rgba(211, 211, 211, 0.3);
     color: #fff;
-    font-size: 100px;
+    padding-bottom: 8px;
+    border-radius: 2px;
+    margin: 10px 0 10px 0;
+
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-form .form-control {
+    width: 100%;
+    max-width: 1000px;
+}
+
+
+
+
+/* Contact End */
+/* Location Start */
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.location h1 {
+    margin-bottom: 10px;
+}
+
+.location p {
+    text-align: center;
+}
+
+.map-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0 15px 0;
 }

@@ -19,14 +19,15 @@ function HeroSection() {
                     CONOZCANOS
                 </Button>
 
-                <Button
-                    className='btns'
+                <a
+                    href='https://api.whatsapp.com/send?phone=5491132082425'
+                    className='btns whatsapp-link'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
-                    onClick={console.log('hey')}
+                    // onClick={console.log('hey')}
                 >
                     WHATSAPP <BsWhatsapp />
-                </Button>
+                </a>
             </div>
         </div>
     );
