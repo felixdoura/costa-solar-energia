@@ -17,7 +17,7 @@ function Cards() {
                         path='/termotanques'
                     />
                     <CardItem 
-                        src="images/foto-insta-004.jpg"
+                        src="images/fotovoltaicos-001.jpg"
                         text="Fotovoltaicos"
                         label='Generadores'
                         path='/products'
@@ -31,7 +31,7 @@ function Cards() {
                 </ul>
                 <ul className='cards__item'>
                     <CardItem 
-                        src="images/foto-insta-001.jpg"
+                        src="images/climatizadores-001.jpg"
                         text="Climatizadores"
                         label='Ofertas'
                         path='/services'

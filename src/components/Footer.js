@@ -2,6 +2,7 @@ import React from "react";
 import './Footer.css';
 import { Link } from "react-router-dom";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+import CardItem from "./CardItem";
 
 function Footer() {
     return (
@@ -39,6 +40,20 @@ function Footer() {
                     </div>
                 </div>
             </div>
+            <section className="sponsors">
+                <div className="sponsors-container">
+                    <h1 className="sponsors-title">SPONSORS</h1>
+                    <div className="sponsors-wrapper">
+                        <ul className='sponsors-items'>
+                            <CardItem
+                                src="images/sponsors-image-001.jpeg"
+                                text="Estudio Tecnico Ayelen Palenque"
+                                path='https://ar.linkedin.com/in/ayelen-palenque-756007126'
+                            />
+                        </ul>
+                    </div>
+                </div>
+            </section>
             <section className="social-media">
                 <div className="social-media-wrap">
                     <div className="footer-logo">

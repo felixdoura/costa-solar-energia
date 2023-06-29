@@ -91,6 +91,44 @@
     color: #b1b1b1;
 }
 
+/* Sponsors Start */
+
+.sponsors-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sponsors-container h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.sponsors-wrapper .sponsors-items{
+    display: flex;
+    flex-direction: row;
+}
+
+.sponsors-items .cards__item__pic-wrap::after {
+    display: none;
+}
+
+.sponsors-items .cards__item__text {
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+/* Sponsors End */
+
 /* Social Media Icons */
 .social-icon-link {
     color: #fff;
