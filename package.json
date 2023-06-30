@@ -1,5 +1,6 @@
 {
   "name": "costa-solar-energia",
+  "homepage": "http://costasolar.com.ar",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
