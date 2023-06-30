@@ -11,7 +11,7 @@ function Cards() {
             <div className='cards__wrapper'>
                 <ul className='cards__item'>
                     <CardItem 
-                        src="images/foto-insta-012.jpg"
+                        src="images/termotanques-001.jpg"
                         text="Termotanques"
                         label='Termotanques'
                         path='/termotanques'
@@ -25,7 +25,7 @@ function Cards() {
                     <CardItem 
                         src="images/foto-insta-001.jpg"
                         text="Luminarias"
-                        label='Ofertas'
+                        label='Luminarias'
                         path='/services'
                     />
                 </ul>
@@ -33,20 +33,20 @@ function Cards() {
                     <CardItem 
                         src="images/climatizadores-001.jpg"
                         text="Climatizadores"
-                        label='Ofertas'
+                        label='Climatizadores'
                         path='/services'
                     />
                     <CardItem 
                         src="images/foto-insta-002.jpg"
                         text="Bombas de Agua"
-                        label='Servicio'
+                        label='Bombeo'
                         path='/services'
                     />
                     <CardItem 
                         src="images/foto-insta-003.jpg"
                         text="Bombas de Calor"
-                        label='Eventos'
-                        path='/services'
+                        label='Bombeo'
+                        path='/bombas-de-calor'
                     />
                 </ul>
             </div>

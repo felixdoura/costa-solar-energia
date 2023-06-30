@@ -14,7 +14,7 @@ function ProductosTermotanques() {
                 <div className='cards__wrapper'>
                     <ul className='cards__item'>
                         <CardItem
-                            src="images/foto-insta-012.jpg"
+                            src="images/termotanques-001.jpg"
                             text="Que es un Termotanque Solar"
                             label='Termotanques'
                             path='/termotanques'

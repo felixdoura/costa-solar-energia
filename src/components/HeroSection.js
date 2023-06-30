@@ -3,6 +3,7 @@ import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 import { BsWhatsapp } from 'react-icons/bs'
+import { Link } from 'react-router-dom';
 
 function HeroSection() {
     return (
@@ -16,7 +17,9 @@ function HeroSection() {
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
                 >
-                    CONOZCANOS
+                    <Link to='/nosotros' className='button-link'>
+                        CONOZCANOS
+                    </Link>
                 </Button>
 
                 <a
@@ -24,7 +27,7 @@ function HeroSection() {
                     className='btns whatsapp-link'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
-                    // onClick={console.log('hey')}
+                // onClick={console.log('hey')}
                 >
                     WHATSAPP <BsWhatsapp />
                 </a>

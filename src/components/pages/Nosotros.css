@@ -1,0 +1,17 @@
+.info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 3rem 2rem 3rem 2rem;
+}
+
+.title-nosotros {
+    color: #242424;
+    margin-bottom: 10px;
+}
+
+.info-nosotros {
+    text-align: center;
+    color: #242424;
+
+}
