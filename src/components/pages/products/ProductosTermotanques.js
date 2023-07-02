@@ -3,7 +3,7 @@ import '../../../App.css';
 import Footer from '../../Footer';
 import CardItem from '../../CardItem';
 import '../../Cards.css';
-import './ProductosTermotanques.css';
+import './Productos.css';
 
 function ProductosTermotanques() {
     return (
@@ -30,7 +30,7 @@ function ProductosTermotanques() {
                         Luego, el líquido caliente se bombea hacia el tanque de almacenamiento, donde transfiere su calor al agua que se encuentra dentro del tanque. Esta agua caliente se puede utilizar directamente en las actividades diarias, como ducharse o lavar platos. Además, el termotanque también puede contar con un sistema de respaldo, como un calentador de gas o eléctrico, para proporcionar agua caliente en caso de que la energía solar no sea suficiente. <br />
 
                         <br />
-                        En resumen, un termotanque de energía solar aprovecha la radiación solar para calentar agua a través de paneles solares y almacenarla en un tanque. Es una forma eficiente y sostenible de obtener agua caliente, reduciendo la dependencia de fuentes de energía no renovables y disminuyendo las emisiones de carbono."
+                        En resumen, un termotanque de energía solar aprovecha la radiación solar para calentar agua a través de paneles solares y almacenarla en un tanque. Es una forma eficiente y sostenible de obtener agua caliente, reduciendo la dependencia de fuentes de energía no renovables y disminuyendo las emisiones de carbono.
                     </p>
                 </div>
             </div>

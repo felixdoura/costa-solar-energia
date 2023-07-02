@@ -1,5 +1,6 @@
-
-.title-termotanques {
+.title-termotanques,
+.title-fotovoltaicos,
+.title-climatizadores {
     background: rgba(211, 211, 211, 0.3);
     color: black;
     padding-bottom: 8px;

@@ -11,6 +11,8 @@ import Contact from './components/pages/Contact';
 import ProductosTermotanques from './components/pages/products/ProductosTermotanques';
 import Nosotros from './components/pages/Nosotros';
 import ProductosBombasDeCalor from './components/pages/products/ProductosBombasDeCalor';
+import ProductosFotovoltaicos from './components/pages/products/ProductosFotovoltaicos';
+import ProductosClimatizadores from './components/pages/products/ProductosClimatizadores';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
         <Route path='/termotanques' element={<ProductosTermotanques />} />
         <Route path='/nosotros' element={<Nosotros />} />
         <Route path='/bombas-de-calor' element={<ProductosBombasDeCalor />} />
+        <Route path='/fotovoltaicos' element={<ProductosFotovoltaicos />} />
+        <Route path='/climatizadores' element={<ProductosClimatizadores />} />
 
       </Routes>
     </Router>

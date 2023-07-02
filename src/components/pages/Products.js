@@ -30,7 +30,7 @@ function Products() {
                                 src="images/fotovoltaicos-001.jpg"
                                 text="Fotovoltaicos"
                                 label='Generadores'
-                                path='/products'
+                                path='/fotovoltaicos'
                             />
                         </div>
                         <p className="products-detail">Diseñado para calentar el agua sanitaria con los rayos solares, compuestos por una parte captadora del calor (tubos de vacio o placa plana) y un tanque acumulador donde se almacenará para ser utilizado posteriormente, con un ahorro promedio del 80% anual. Sean en gas o electricidad.o</p>
@@ -63,7 +63,7 @@ function Products() {
                                 src="images/climatizadores-001.jpg"
                                 text="Climatizadores"
                                 label='Ofertas'
-                                path='/services'
+                                path='/climatizadores'
                             />
                         </div>
                         <p className="products-detail">Estos agregan grados de temperatura a tu pileta y te permiten templar el agua para extender el uso y disfrutarla durante mas meses en el año.</p>

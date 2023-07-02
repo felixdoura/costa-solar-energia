@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src='/videos/video-solar.mp4' autoPlay loop muted />
+            <video className='hero-video' src='/videos/video-solar.mp4' autoPlay loop muted />
             <h1>Costa Solar Energia Renovable</h1>
             <p className='slogan'>APUNTAMOS A UN MUNDO MAS LIMPIO Y SUSTENTABLE</p>
             <div className='hero-btns'>

@@ -20,7 +20,7 @@ function Cards() {
                         src="images/fotovoltaicos-001.jpg"
                         text="Fotovoltaicos"
                         label='Generadores'
-                        path='/products'
+                        path='/fotovoltaicos'
                     />
                     <CardItem 
                         src="images/foto-insta-001.jpg"
@@ -34,7 +34,7 @@ function Cards() {
                         src="images/climatizadores-001.jpg"
                         text="Climatizadores"
                         label='Climatizadores'
-                        path='/services'
+                        path='/climatizadores'
                     />
                     <CardItem 
                         src="images/foto-insta-002.jpg"

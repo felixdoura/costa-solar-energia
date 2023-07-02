@@ -1,0 +1,40 @@
+.services-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.services-item {
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.imagen-colocacion {
+    margin: 1rem;
+    width: 45%;
+    max-width: 500px;
+}
+
+.info-colocacion {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 10px;
+}
+
+@media screen and (max-width: 760px) {
+    .services-wrapper {
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .services-item {
+        flex-direction: column;
+    }
+
+    .imagen-colocacion {
+        margin: 1rem;
+        max-width: 90%;
+    }
+}

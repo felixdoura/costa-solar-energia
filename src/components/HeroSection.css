@@ -31,6 +31,10 @@ video {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.hero-video {
+    z-index: -3;
+}
+
 .button-link {
     text-decoration: none;
     color: #fff;
