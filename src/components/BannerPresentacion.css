@@ -1,0 +1,49 @@
+.banner-container {
+    background: #fff;
+}
+
+.banner-divisor-top {
+    border-bottom: 3px solid green;
+    padding-top: 20px;
+    margin: 0 7% 0 7%;
+}
+
+.banner-divisor-bottom {
+    border-bottom: 3px solid rgb(0, 145, 255);
+    padding-top: 20px;
+    margin: 0 7% 0 7%;
+}
+
+.banner-wrapper {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    padding: 2rem 0 1rem 0;
+}
+
+.image-presentacion {
+    width: 20%;
+    max-width: 200px;
+}
+
+.banner-list {
+    list-style: square;
+}
+
+.banner-divisor-list {
+    border-right: 3px solid rgb(0, 145, 255);
+    padding-top: 8rem;
+    margin: 2% 0 2% 0;
+}
+
+@media only screen and (max-width: 780px) {
+    .banner-wrapper {
+        gap: 1.5rem;
+    }
+
+    .banner-divisor-list {
+        display: none;
+    }
+}
