@@ -40,12 +40,6 @@ function Cards() {
                         label='Bombeo'
                         path='/services'
                     />
-                    <CardItem 
-                        src="images/foto-insta-003.jpg"
-                        text="Bombas de Calor"
-                        label='Bombeo'
-                        path='/bombas-de-calor'
-                    />
                 </ul>
             </div>
         </div>

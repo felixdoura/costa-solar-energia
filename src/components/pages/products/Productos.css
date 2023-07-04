@@ -9,6 +9,122 @@
     margin-bottom: -10px;
 }
 
+.cards__wrapper {
+    margin-bottom: 2rem;
+}
+
 .product-info {
+    display: flex;
     margin: 0 1rem;
+    width: 100%;
+    padding-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.tarjetas-termotanques {
+    gap: 5rem;
+    justify-content: center;
+}
+
+.card-termotanques {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(211, 211, 211, 0.3);
+}
+
+.card-termotanques li {
+    list-style: square;
+    margin-top: 9px;
+}
+
+.tarjeta-accesorios {
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-accesorios {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(230, 230, 230, 0.3);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(241, 241, 241, 0.3);
+}
+
+.card-accesorios li {
+    list-style: square;
+    margin-top: 9px;
+}
+
+.items-accesorios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-accesorios {
+    max-width: 50%;
+}
+
+.card-termotanques .title-presupuesto {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.card-termotanques .whatsapp-link {
+    padding: 1rem !important;
+}
+
+@media (min-width: 720px) {
+    .cards__wrapper {
+        display: flex;
+    }
+
+    .cards__wrapper .product-info {
+        width: 50%;
+    }
+
+    .tarjetas-termotanques {
+        display: flex;
+        width: 90%;
+        gap: 2rem;
+    }
+
+    .card-termotanques {
+        width: 70%;
+    }
+
+    .tarjeta-accesorios {
+        display: flex;
+        width: 90%;
+        gap: 2rem;
+    }
+    
+    .card-accesorios {
+        width: 70%;
+    }
+
+    .items-accesorios {
+        gap: 0.5rem;
+    }
+
+    .card-termotanques .title-presupuesto {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    
+    .card-termotanques .whatsapp-link {
+        max-width: 90%;
+        padding: 12px 0 12px 0;
+    }
 }
