@@ -12,7 +12,7 @@ function ProductosTermotanques() {
             <div className='termotanques'>
                 <h1 className='title-termotanques'>Termotanques Solares</h1>
                 <div className='cards__container'>
-                    <div className='cards__wrapper'>
+                    <div className='cards__product__wrapper'>
                         <h3 className='product-info'>Son equipos diseñados para lograr captar la energia solar termica y calentar el agua a traves de tubos de vacio para posteriormente ser acumulada. <br />
                             Con este sistema se puede ahorrar un 80% del consumo convencional.
                         </h3>
