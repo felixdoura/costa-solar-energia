@@ -1,0 +1,47 @@
+.contact-card-container {
+    position: absolute;
+    width: 600px;
+    left: 5%;
+    bottom: 5%;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.contact-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 1rem;
+}
+
+.contact-card-btns {
+    display: flex;
+}
+
+
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Smartphones */
+@media screen and (max-width: 480px) {
+    .contact-card-container {
+        position: absolute;
+        left: 20%;
+        width: 60%;
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-bottom: 2rem;
+    }
+    
+    .contact-card-wrapper {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 1rem;
+    }
+}

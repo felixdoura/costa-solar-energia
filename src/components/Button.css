@@ -7,7 +7,7 @@
 }
 
 .btn, .whatsapp-link {
-    padding: 8px 20px;
+    /* padding: 8px 20px; */
     border-radius: 2px;
     outline: none;
     border: none;
@@ -17,7 +17,8 @@
 .btn--primary, .whatsapp-link {
     background-color: var(--primary);
     color: #242424;
-    border: 1px solid var(--primary);
+    border: none;
+
 }
 
 .btn--outline {
@@ -34,10 +35,9 @@
 }
 
 .btn--large, .whatsapp-link {
-    padding: 12px 26px;
+    padding: 8px 20px;
     font-size: 20px;
     align-items: center;
-    display: flex;
     justify-content: space-evenly;
 }
 

@@ -1,39 +1,77 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../App.css';
-import { Button } from './Button';
 import './HeroSection.css';
-import { BsWhatsapp } from 'react-icons/bs'
-import { Link } from 'react-router-dom';
+import ContactCard from './ContactCard';
 
-function HeroSection() {
+const slides = [
+    {
+        image: '/images/img-1.jpg',
+        alt: 'banner-img',
+    },
+    {
+        image: '/images/img-2.jpg',
+        alt: 'banner-img',
+    },
+    {
+        image: '/images/img-3.jpg',
+        alt: 'banner-img',
+    }
+];
+
+
+const HeroSection = () => {
+    const [currentSlide, setCurrentSlide] = useState(0);
+
+    const goToPreviousSlide = () => {
+        setCurrentSlide((prevSlide) => (prevSlide === 0 ? slides.length - 1 : prevSlide - 1));
+    };
+
+    const goToNextSlide = () => {
+        setCurrentSlide((prevSlide) => (prevSlide === slides.length - 1 ? 0 : prevSlide + 1));
+    };
+
+    const goToSlide = (index) => {
+        setCurrentSlide(index);
+    };
+
+
     return (
-        <div className='hero-container'>
-            <video className='hero-video' src='/videos/video-solar.mp4' autoPlay loop muted />
-            <h1>Costa Solar Energia Renovable</h1>
-            <p className='slogan'>APUNTAMOS A UN MUNDO MAS LIMPIO Y SUSTENTABLE</p>
-            <div className='hero-btns'>
-                <Button
-                    className='btns'
-                    buttonStyle='btn--outline'
-                    buttonSize='btn--large'
-                >
-                    <Link to='/nosotros' className='button-link'>
-                        CONOZCANOS
-                    </Link>
-                </Button>
+        <>
+            <div className="hero-slider">
+                <div className="slider-container">
+                    {slides.map((slide, index) => (
+                        <img
+                            key={index}
+                            src={slide.image}
+                            alt={`Slide ${index + 1}`}
+                            className={`slide ${index === currentSlide ? 'active' : ''}`}
+                        />
+                    ))}
 
-                <a
-                    href='https://api.whatsapp.com/send?phone=5492246535844'
-                    className='btns whatsapp-link'
-                    buttonStyle='btn--primary'
-                    buttonSize='btn--large'
-                // onClick={console.log('hey')}
-                >
-                    WHATSAPP <BsWhatsapp />
-                </a>
+                    <div className="slider-controls">
+                        <button className="previous-slide" onClick={goToPreviousSlide}>
+                            {'<'}
+                        </button>
+                        <button className="next-slide" onClick={goToNextSlide}>
+                            {'>'}
+                        </button>
+                    </div>
+
+                    <div className="slider-points">
+                        {slides.map((_, index) => (
+                            <button
+                                key={index}
+                                className={`slider-point ${index === currentSlide ? 'active' : ''}`}
+                                onClick={() => goToSlide(index)}
+                            />
+                        ))}
+                    </div>
+                    <ContactCard />
+                </div>
             </div>
-        </div>
+        </>
+
     );
-}
+};
 
 export default HeroSection;

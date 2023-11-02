@@ -1,89 +1,78 @@
-video {
-    object-fit: cover;
+.hero-slider {
+    width: 100%;
+    height: 400px;
+    /* Ajusta la altura según sea necesario */
+    position: relative;
+}
+
+.slider-container {
+    position: relative;
     width: 100%;
     height: 100%;
-    position: fixed;
-    z-index: -1;
 }
 
-.hero-container {
-    /* background: url('../../public/images/img-home.jpg') center center/cover no-repeat; */
-    height: 100vh;
+.slide {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
-}
-
-.hero-container>h1 {
-    color: #fff;
-    font-size: 100px;
-    margin-top: -100px;
-}
-
-.hero-container>p {
-    margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.hero-video {
+    max-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
     z-index: -3;
+    /* Ajusta el valor del z-index para colocar las imágenes detrás del contenido */
 }
 
-.button-link {
-    text-decoration: none;
-    color: #fff;
+.slide.active {
+    opacity: 1;
 }
 
-.btn:hover .button-link {
-    text-decoration: none;
-    color: #242424;
+.slider-controls {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
 }
 
-.hero-btns {
-    margin-top: 32px;
+.previous-slide,
+.next-slide {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 16px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.hero-btns .btn {
-    margin: 6px 0 6px 0;
+.slider-points {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
 }
 
-.fa-play-circle {
-    margin-left: 4px;
+.slider-point {
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
-.slogan {
-    text-align: center;
+.slider-point.active {
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
-@media screen and (max-width: 960px) {
-    .hero-container>h1 {
-        font-size: 70px;
-        margin-top: -150px;
-    }
-}
 
-@media screen and (max-width: 9768px) {
-    .hero-container>h1 {
-        font-size: 50px;
-        margin-top: -100px;
-    }
+/* Tablets */
+@media screen and (max-width: 1024px) {}
 
-    .hero-container>p {
-        font-size: 30px;
-    }
-
-    .btn-mobile {
-        display: block;
-        text-decoration: none;
-    }
-
-    .btn {
-        width: 100%;
-    }
-}
+/* Smartphones */
+@media screen and (max-width: 480px) {}
