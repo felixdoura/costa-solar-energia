@@ -5,11 +5,11 @@ import ContactCard from './ContactCard';
 
 const slides = [
     {
-        image: '/images/img-1.jpg',
+        image: '/images/fotovoltaicos-002.jpg',
         alt: 'banner-img',
     },
     {
-        image: '/images/img-2.jpg',
+        image: '/images/img-11.jpg',
         alt: 'banner-img',
     },
     {
